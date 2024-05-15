@@ -106,7 +106,7 @@ export default function Lp() {
                 </Avatar>
                 <h3 className="text-lg font-semibold mt-4 mb-2">John Doe</h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  "Cubo revolucionou nosso processo de criação de anúncios. É rápido, fácil e os resultados são impressionantes."
+                  &quot;Cubo revolucionou nosso processo de criação de anúncios. É rápido, fácil e os resultados são impressionantes.&quot;
                 </p>
               </div>
               <div className="flex flex-col items-center text-center">
@@ -114,14 +114,14 @@ export default function Lp() {
                   <AvatarImage src="/placeholder-user.jpg" />
                 </Avatar>
                 <h3 className="text-lg font-semibold mt-4 mb-2">Jane Smith</h3>
-                <p className="text-gray-500 dark:text-gray-400">"Não posso acreditar quanto tempo estamos economizando com o Cubo. É uma virada de jogo."</p>
+                <p className="text-gray-500 dark:text-gray-400">&quot;Não posso acreditar quanto tempo estamos economizando com o Cubo. É uma virada de jogo.&quot;</p>
               </div>
               <div className="flex flex-col items-center text-center">
                 <Avatar>
                   <AvatarImage src="/placeholder-user.jpg" />
                 </Avatar>
                 <h3 className="text-lg font-semibold mt-4 mb-2">Bob Johnson</h3>
-                <p className="text-gray-500 dark:text-gray-400">"Nossos anúncios nunca estiveram melhores. Obrigado, Cubo!"</p>
+                <p className="text-gray-500 dark:text-gray-400">&quot;Nossos anúncios nunca estiveram melhores. Obrigado, Cubo!&quot;</p>
               </div>
             </div>
           </div>

@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import Link from "next/link";
+import { JSX, SVGProps } from 'react';
 
 export default function Contato() {
      return (
@@ -88,7 +89,7 @@ export default function Contato() {
      );
 }
 
-function FacebookIcon(props) {
+function FacebookIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
      return (
           <svg
                {...props}
@@ -108,7 +109,7 @@ function FacebookIcon(props) {
 }
 
 
-function GlobeIcon(props) {
+function GlobeIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
      return (
           <svg
                {...props}
@@ -130,7 +131,7 @@ function GlobeIcon(props) {
 }
 
 
-function LinkedinIcon(props) {
+function LinkedinIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
      return (
           <svg
                {...props}
@@ -152,7 +153,7 @@ function LinkedinIcon(props) {
 }
 
 
-function MapPinIcon(props) {
+function MapPinIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
      return (
           <svg
                {...props}
@@ -173,7 +174,7 @@ function MapPinIcon(props) {
 }
 
 
-function PhoneIcon(props) {
+function PhoneIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
      return (
           <svg
                {...props}
@@ -193,7 +194,7 @@ function PhoneIcon(props) {
 }
 
 
-function TwitterIcon(props) {
+function TwitterIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
      return (
           <svg
                {...props}
