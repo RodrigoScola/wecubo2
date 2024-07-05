@@ -1,3 +1,4 @@
+'use client';
 
 
 import { Button } from "@/components/ui/button";
@@ -6,8 +7,10 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import Link from "next/link";
 import { JSX, SVGProps } from 'react';
+import { useToast } from '../../components/ui/use-toast';
 
 export default function Contato() {
+     const { toast } = useToast();
      return (
           <main className="flex flex-col items-center justify-center min-h-[100dvh] bg-gray-100 dark:bg-gray-900 py-12 md:py-24">
                <div className="container px-4 md:px-6 max-w-5xl space-y-8">
@@ -34,7 +37,11 @@ export default function Contato() {
                                    <Label htmlFor="message">Mensagem</Label>
                                    <Textarea className="min-h-[120px]" id="message" placeholder="Digite sua Mensagem" />
                               </div>
-                              <Button className="w-full" type="submit">
+                              <Button onClick={() => {
+                                   toast({
+                                        title: "Mensagem Enviada"
+                                   });
+                              }} className="w-full" >
                                    Submit
                               </Button>
                          </form>
